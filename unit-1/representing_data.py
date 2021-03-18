@@ -1,26 +1,31 @@
-def find_seq_diff(seq1, seq2):
-    differences = []
-    n = len(seq1)
-    # loop n times
-    for i in range(n):
-        # check if the elements in each sequence are different
-        if seq1[i] != seq2[i]:
-            # if they're different, store the difference
-            differences.append([seq1[i], seq2[i]])
+# 0. Check-In - put a word on how you're and  Roundtable Framing (5 min)
 
-    return differences
+# 1. Questions: Viewing Party and/or (10 min)
 
-differences = find_seq_diff('GAGCCTACTAACGGGAT', 	'CATCGTAATGACGGCCT')
+# 2. Breakout Rooms - Activity: Representing Data (30 min)
 
-print("These are the differences:", differences)
-print("There are ", len(differences), "of them.")
+# 3. Come back together to share (15 min)
 
-
-
-
-
-
-
+# activity problem 2
+patient_info = {
+    name: nelly
+    mailing address: abc
+    visits: [
+        {
+        date: , 
+        test results: {},
+        visit summary: 
+        },
+        date: , 
+        test results: 
+        visit summary: 
+        },
+        date: , 
+        test results:
+        visit summary: 
+        }
+        ]
+}
 
 # #Q1
 # def find_seq_diffs(seq1, seq2):
