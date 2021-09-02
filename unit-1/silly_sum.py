@@ -16,17 +16,16 @@ def input_int(*args):
 def silly_sum():
 
     sum = 0
-    num = 1
+    num = "hello, world"
 
     # keep asking for a number until the the sum is greater than 1000 or the number is 0
     while sum < 1000 and num != 0:
         num = input_int("Give me a number! ")
-        sum += num
+        sum = num
         
     return sum
 
 sum = silly_sum()
-print(sum)
 
 
         
